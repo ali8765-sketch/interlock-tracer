@@ -1,0 +1,24 @@
+{
+  "id": "s2_partial",
+  "description": "Partial snapshot: START_PB value missing",
+  "values": {
+    "STOP_PB": false,
+    "ESTOP_PB1_OK": true,
+    "ESTOP_PB2_OK": true,
+    "SAFETY_RELAY_FB": true,
+    "GUARD_DOOR_1_CLOSED": true,
+    "GUARD_DOOR_2_CLOSED": false,
+    "MAINT_KEY_ON": false,
+    "M101_OVERLOAD": false,
+    "M102_OVERLOAD": true,
+    "M103_OVERLOAD": false,
+    "LS204_BIN_FULL": true,
+    "DIVERT_REQ": true,
+    "M101_RUN": false,
+    "M102_RUN": false,
+    "M103_RUN": false,
+    "HORN": false,
+    "GUARD_DOOR_3_CLOSED": true,
+    "AIR_PRESSURE_OK": false
+  }
+}

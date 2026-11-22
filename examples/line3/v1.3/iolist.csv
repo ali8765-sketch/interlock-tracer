@@ -1,0 +1,22 @@
+tag,kind,address,device,desc_en,desc_de
+START_PB,input,%I0.0,Operator panel,Start push button,Starttaster
+STOP_PB,input,%I0.1,Operator panel,Stop push button,Stopptaster
+ESTOP_PB1_OK,input,%I0.2,Safety chain,Emergency stop button 1 released,Not-Halt Taster 1 nicht betätigt
+ESTOP_PB2_OK,input,%I0.3,Safety chain,Emergency stop button 2 released,Not-Halt Taster 2 nicht betätigt
+SAFETY_RELAY_FB,input,%I0.4,Safety chain,Safety relay feedback,Rückmeldung Sicherheitsrelais
+GUARD_DOOR_1_CLOSED,input,%I0.5,Guarding,Guard door 1 closed,Schutztür 1 geschlossen
+GUARD_DOOR_2_CLOSED,input,%I0.6,Guarding,Guard door 2 closed,Schutztür 2 geschlossen
+MAINT_KEY_ON,input,%I0.7,Operator panel,Maintenance key switch on,Wartungsschlüsselschalter ein
+M101_OVERLOAD,input,%I0.8,Conveyor C1,Conveyor 1 motor overload tripped,Motorschutz Förderband 1 ausgelöst
+M102_OVERLOAD,input,%I0.9,Conveyor C2,Conveyor 2 motor overload tripped,Motorschutz Förderband 2 ausgelöst
+M103_OVERLOAD,input,%I0.10,Conveyor C3,Conveyor 3 motor overload tripped,Motorschutz Förderband 3 ausgelöst
+LS204_BIN_FULL,input,%I0.11,Bin 204,Bin 204 full level switch,Füllstandsschalter Behälter 204 voll
+DIVERT_REQ,input,%I0.12,Diverter,Diverter request,Weichenanforderung
+ESTOP_CHAIN_OK,internal,%M0.0,Safety logic,Emergency stop chain healthy,Not-Halt-Kette in Ordnung
+GUARDS_OK,internal,%M0.1,Safety logic,All guard doors closed,Alle Schutztüren geschlossen
+SAFE_TO_RUN,internal,%M0.2,Safety logic,Line safe to run,Anlage betriebsbereit (sicher)
+M101_RUN,output,%Q0.0,Conveyor C1,Conveyor 1 motor run,Förderband 1 Motor ein
+M102_RUN,output,%Q0.1,Conveyor C2,Conveyor 2 motor run,Förderband 2 Motor ein
+M103_RUN,output,%Q0.2,Conveyor C3,Conveyor 3 motor run,Förderband 3 Motor ein
+HORN,output,%Q0.3,Operator panel,Start-up warning horn,Anlaufwarnhupe
+Y301_DIVERT,output,%Q0.4,Diverter,Diverter valve Y301,Weichenventil Y301

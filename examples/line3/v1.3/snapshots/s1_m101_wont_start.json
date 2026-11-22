@@ -1,0 +1,23 @@
+{
+  "id": "s1_m101_wont_start",
+  "description": "M101 will not start: door 2 open, C2 overload, bin full",
+  "values": {
+    "START_PB": true,
+    "STOP_PB": false,
+    "ESTOP_PB1_OK": true,
+    "ESTOP_PB2_OK": true,
+    "SAFETY_RELAY_FB": true,
+    "GUARD_DOOR_1_CLOSED": true,
+    "GUARD_DOOR_2_CLOSED": false,
+    "MAINT_KEY_ON": false,
+    "M101_OVERLOAD": false,
+    "M102_OVERLOAD": true,
+    "M103_OVERLOAD": false,
+    "LS204_BIN_FULL": true,
+    "DIVERT_REQ": true,
+    "M101_RUN": false,
+    "M102_RUN": false,
+    "M103_RUN": false,
+    "HORN": false
+  }
+}

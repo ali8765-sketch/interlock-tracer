@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interlock-tracer"
+version = "0.1.0"
+description = "Store PLC interlock logic in an embedded Relate graph and explain why outputs are blocked."
+requires-python = ">=3.11"
+dependencies = ["relate-db==1.2.0"]
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.2,<2"]
+ai = ["anthropic>=0.40"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+itrace = "interlock_tracer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+interlock_tracer = ["vendor/*.js", "vendor/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

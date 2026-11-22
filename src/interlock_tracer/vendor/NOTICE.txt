@@ -1,0 +1,3 @@
+Cytoscape.js 3.33.1 — https://js.cytoscape.org/
+Copyright (c) 2016 The Cytoscape Consortium. Released under the MIT License.
+https://github.com/cytoscape/cytoscape.js/blob/v3.33.1/LICENSE
